@@ -1,12 +1,13 @@
 ---
-layout: page
-title: Summary
-permalink: /summary/
+layout: post
+title: About
+permalink: /about/
 ---
 
 # Introduction to using version control using GitKraken
 
-Training materials for a hands-on workshop learning 
+Training materials for a hands-on workshop on using Git version control with GitKraken. If you would like to learn version control without having to use 
+command line, you may find these materials useful.
 
 ## Learning objectives (what you will know after this workshop):
 
@@ -18,9 +19,8 @@ Training materials for a hands-on workshop learning
 * How to push to and pull from repositories on GitHub
 * How to resolve conflicts working on shared repositories on GitHub
 
+## Resources
 
-#### Contributors:
+* Version control with Git - [Software Carpentry lessons](http://swcarpentry.github.io/git-novice/)
+* [Frontend Masters Advanced Git](https://github.com/nnja/advanced-git) - by Nina Zakharenko
 
-Aleksandra Pawlik (if you are contributing to the materials, please add your name to the list).
-
-This page template and the concept of the workshop has been adapted from the [Software Carpentry]() materials.

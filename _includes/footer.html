@@ -2,16 +2,12 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li>
             {% if site.author %}
               {{ site.author | escape }}
-            {% else %}
-              {{ site.title | escape }}
             {% endif %}
             </li>
             {% if site.email %}
@@ -35,17 +31,7 @@
           {% endif %}
         </ul>
       </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description | escape }}</p>
-      </div>
     </div>
-
-    <div class="footer-col"> 
-
-      <img class="navbar-logo" src="{{ "/" | relative_url }}/assets/img/NeSI_Icon_Brand_expression_H_RGB.png" alt="NeSI logo" />
-    </div>
-
   </div>
 
 </footer>

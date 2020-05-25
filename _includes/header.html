@@ -4,13 +4,12 @@
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
 
-    <a href="https://www.nesi.org.nz/" class="pull-left">
-    <img class="navbar-logo" src="{{ "/" | relative_url }}/assets/img/NeSI_Logo_CMYK.jpg" alt="NeSI logo" />
+    <a href="https://www.landcareresearch.co.nz/" class="pull-right">
+    <img class="navbar-logo media-right" src="{{ "/" | relative_url }}/assets/img/manaaki_whenua.png" alt="MWLR logo" />
           </a>
+    <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
 
-          <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-
-    {% if page_paths %}
+   <!-- {% if page_paths %}
       <nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label for="nav-trigger">
@@ -33,5 +32,6 @@
         </div>
       </nav>
     {% endif %}
+-->
   </div>
 </header>
