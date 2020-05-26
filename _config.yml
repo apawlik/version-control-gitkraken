@@ -18,7 +18,7 @@ title: Introduction to version control using GitKraken
 description: > # this means to ignore newlines until "baseurl:"
   This page includes training materials for introduction to version control with GitKraken.
 baseurl: "/version-control-gitkraken" # the subpath of your site, e.g. /blog
-url: "https://apawlik.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #github_username:  apawlik
 
 

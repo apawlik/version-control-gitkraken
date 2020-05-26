@@ -9,9 +9,13 @@ Start with creating a Git repository on your local machine. Launch GitKraken and
 
 ![](../assets/img/start_repo.png)
 
-Give your repository a name and select where you want to have it on your machine. A repository is in fact a directory on a hard drive (with some special features that make it a repository) so think about it as creating a directory where you will store your project files. Don't create any `README` file or a `License`. 
+Give your repository a name and select where you want to have it on your machine. A repository is in fact a directory on a hard drive (with some special features that make it a repository) so think about it as creating a directory where you will store your project files. Don't create any `.gitignore` file or a `License`. 
 
 ![](../assets/img/initialize_repo.png)
+
+GitKraken by default creates a `README.md` file inside your repository. We will not need it, so when you right click on it you can remove it.
+
+![](../assets/img/initial_commit_remove_README.png)
 
 Now we can start working with our code. Inside the repository (so the directory you just set up) create a file with the code you want to work on. In this tutorial we use a simple R script. If you run it, it should download a small `csv` file with some data about world population, countries GDP etc.:
 
