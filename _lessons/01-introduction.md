@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Introduction to version control
 permalink: /lessons/introduction
 chapter: introduction

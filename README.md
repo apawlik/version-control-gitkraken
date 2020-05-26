@@ -1,9 +1,3 @@
----
-layout: page
-title: Summary
-permalink: /summary/
----
-
 # Introduction to using version control using GitKraken
 
 Training materials for a hands-on workshop learning 
