@@ -39,7 +39,25 @@ You need to log into GitHub:
 
 ## Collaborating in GihHub
 
-Now you should see your repository in GitHub. Let's say you want to collaborate now on your code. Let's add an collaborator.
+Now you should see your repository in GitHub. Let's say you want to collaborate now on your code. Let's add an collaborator - ideally find a colleague that would work  with you on this task for practice.
 
 ![](../assets/img/add_collab.png)
+
+Your collaborator should now receive an email or notification on GitHub that they were invited to collaborate on your repository. They can clone the repository to their machine. They need to find the address for cloning:
+
+![](../assets/img/clone_address.png)
+
+If they use GitKraken, they can get your repository locally on their machine by selecting `File -> Clone repository` in GitKraken and then providing the address of the repository:
+
+![](../assets/img/clone_git_kraken_2.png)
+
+We said earlier that version control is really good to help collaborate on the same pieces of file preventing collaborators from accidental overwrites. Let's see how that works.
+
+Both you and your collaborator now edit on your machines (so your own copies of the files) the same section of the same file. This could be the first line of the `R` script. Each one of you should make changes that are different. Both of you make the commit like we did in the first part of this tutorial. Ask your collaborator to now push his repository to GitHub. This will update the GitHub repository with their changes.
+
+![](../assets/img/push.png)
+
+Now you try `Push`. You should get a message that you need to first pull as there are some new updates from your collaborator. When you `Pull`, GitKraken will tell you, there is a conflict.
+
+
 
