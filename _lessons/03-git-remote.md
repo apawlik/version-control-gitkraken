@@ -26,6 +26,20 @@ Once you have done that, GitHub will give you a few hints what to do next. These
 ![](../assets/img/how_to_push.png)
 
 Now we need to go back to our local repository on GitKraken and tell GitKraken where is our remote repository:
+![](../assets/img/set_remote.png)
 
 
+Then we can push the whole local repository to GitHub:
+
+![](../assets/img/remote_push.png)
+
+You need to log into GitHub:
+
+![](../assets/img/remote_push_2.png)
+
+## Collaborating in GihHub
+
+Now you should see your repository in GitHub. Let's say you want to collaborate now on your code. Let's add an collaborator.
+
+![](../assets/img/add_collab.png)
 
