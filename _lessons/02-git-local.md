@@ -37,10 +37,13 @@ In GitKraken version control will see the R script file and the `csv` file (if y
 
 In order to tell Git that we want to keep the files under version control, we need to **Stage** them by clicking `Stage all changes` in GitKraken. The files should now show up in the `Staged files` section on the right. We need to now **Commit** them. Commit takes the snapshot of the version of the files as they are in the staged state. In GitKraken you need to enter a commit message in the right hand bottom corner. 
 
+
+
 **Commit messages**
+<br>
 Commit messages are important information for your future self and for any collaborators you may have. The commit message allows you to note not only what you changed (that will be captured for you by Git anyways) but *why* you did it. Commit messages have a subject like (bit like email) and then body of the message - if you want to include more detail.
 
-Our commit message can be `adding script and data file`.
+![](../assets/img/commit_message.png)
 
 We can carry on working on our R script. Since we already have the data file, we can remote the line that downloads it and add some code to inspect the data.
 
@@ -62,6 +65,8 @@ cbind(gapminder, below_average)
 ```
 
 To save this version, we need to repeat the steps of committing the file. Git tracks R script now but again it is up to us to decide whether and when we want to take the snapshot of the version of the file. To make a commit we need to do the same steps: *stage* the file and then *commit* it.
+
+![](../assets/img/stage_changes.png)
 
 Let's add some more files to our project. Perhaps a handy 'scrapbook' file with notes, bits of code, `my-R-notes.R`.
 
@@ -104,14 +109,15 @@ How can we use version control to see previous versions of our files? For exampl
 
 In GitKraken, in the middle, you can see our commit tree built of the commit messages. We can checkout one of those previous commits that still has the piece of code we are interested in (that is why good commit messages are so important!). When you right click on the commit (version) you are interested in, you can select `Checkout this commit`.
 
-![]
+![](../assets/img/checkout_past.png)
 
-We are now back to the version from the commit we selected (note that this is also the version of the files which your operating system will see). We can open our R script and look up the parts of code that we since have deleted. Once we have looked up the code, we are ready to return to the latest version of the code we were working on - to the "top" of our commit tree. In order to do that, rightclick on the commit tree and select `Checkout master`. And we're back at the latest version!
+We are now back to the version from the commit we selected (note that this is also the version of the files which your operating system will see). We can open our R script and look up the parts of code that we since have deleted. 
+
+![](../assets/img/detached_head.png)
 
 **Note** When you checkout one of the previous versions from your Git commit history, you should not just start working from there editing files, making commits etc. It is possible to do that but it does require a few more steps to do it correctly which is beyond the scope of this tutorial. Think about it this way: in all movies when the main characters travel back in time and change things in hope to make the future better, it always backfires. It is somewhat similar with Git.
 
+Once we have looked up the code, we are ready to return to the latest version of the code we were working on - to the "top" of our commit tree. In order to do that, rightclick on the commit tree and select `Checkout master`. And we're back at the latest version!
 
-
-
-
+![](../assets/img/checkout_master.png)
 

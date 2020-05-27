@@ -23,6 +23,9 @@ The template for rendering these materials is derived from Software Carpentry an
 
 ## Resources
 
+* [Ten Simple Rules for Taking Advantage of Git and GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004947) paper in PLoS Computational Biology
+
 * Version control with Git - [Software Carpentry lessons](http://swcarpentry.github.io/git-novice/)
+* [Intermediate Git](https://rgaiacs.github.io/swc-git-intermediate) by Raniere Silva
 * [Frontend Masters Advanced Git](https://github.com/nnja/advanced-git) - by Nina Zakharenko
 

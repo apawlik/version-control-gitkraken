@@ -7,7 +7,7 @@ chapter: git-remote
 
 Having a local repository is useful to track changes and version your work but it also means that you only can work on it from this one machine and makes it hard to collaborate. Good news is that you don't need to email around the files or keep them in a cloud storage. There are online resources that support working with Git.
 
-One of them is [GitHub](https://github.com) and in this section of the tutorial we will learn how to use it for your work. GitHub is widely used by open source and commercial projects (including the mammooth companies such as Microsoft or Apple). GitHub is also popular among researchers who decide to publish their code or even publish their data. Note that Manaaki Whenua Landcare Research has am [organisational account](https://github.com/manaakiwhenua/) where you can store your repositories.
+One of them is [GitHub](https://github.com) and in this section of the tutorial we will learn how to use it for your work. GitHub is widely used by open source and commercial projects (including the mammooth companies such as Microsoft or Apple). GitHub is also popular among researchers who decide to publish their code or even publish their data. Note that Manaaki Whenua Landcare Research has am [organisation account](https://github.com/manaakiwhenua/) where you can store your repositories.
 
 Having a repository on GitHub doesn't mean that its contents will be publicly available. You can set each repository to be either public or private (in which case only logged in GitHub users that you allow access to your repository will be able to see the contents).
 
@@ -88,4 +88,12 @@ The commit message is already entered for us. We can add more details if we want
 That's it! We should now be able to push. Our collaborators, when they pull into their local repository should see those changes.
 
 ## Going forward
+
+* Version control with Git - [Software Carpentry lessons](http://swcarpentry.github.io/git-novice/)
+* [Intermediate Git](https://rgaiacs.github.io/swc-git-intermediate) by Raniere Silva
+* [Frontend Masters Advanced Git](https://github.com/nnja/advanced-git) - by Nina Zakharenko
+
+* [Licensing your code](https://choosealicense.com/) - by GitHub
+* [Choosing an open-source licence](https://www.software.ac.uk/resources/guides/adopting-open-source-licence) - by The Software Sustainability Institute
+* [Choose a License](https://swcarpentry.github.io/managing-research-software-projects/09-license/) in Managing Research Software Projects by Software Carpentry
 
