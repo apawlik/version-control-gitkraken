@@ -57,7 +57,35 @@ Both you and your collaborator now edit on your machines (so your own copies of 
 
 ![](../assets/img/push.png)
 
-Now you try `Push`. You should get a message that you need to first pull as there are some new updates from your collaborator. When you `Pull`, GitKraken will tell you, there is a conflict.
+Now you try `Push`. You should get a message that you need to first pull as there are some new updates from your collaborator. When you `Pull`, GitKraken will tell you, that push failed as there are some updates in the remote repository which you don't yet have. You need to pull first.
 
+![](../assets/img/push_fail.png)
 
+We do the `Pull` but we now have a conflict as both us and our collaborator edited the same file in the same place (line).
+
+![](../assets/img/pull_into_conflict.png)
+
+## Resolving conflicts
+
+In a case of conflict, Git will not simply overwrite one version of the file over another. The user needs to manually indicate that the conflict is resolved. But first of all, what does actually happen inside the conflicted file? Let's open it in `RStudio`
+
+![](../assets/img/conflict_markings.png)
+
+Git attempted to `merge` two versions of file but since the same line had different content, it put them one under another separating them with Git-specific markings `<<<<<< HEAD` `============` `>>>>>>> master` indicating which one is ours (`HEAD`) and which came from pulling from the remote repository (`master`).
+
+After talking to our collaborator, we agree on the final version and edit the file.
+
+![](../assets/img/resolve_conflict.png)
+
+Now we need to tell GitKraken (and Git) that we resolved the conflict and we can commit the resolved changes.
+
+![](../assets/img/mark_resolved.png)
+
+The commit message is already entered for us. We can add more details if we want though, and then make a commit.
+
+![](../assets/img/stage_merge.png)
+
+That's it! We should now be able to push. Our collaborators, when they pull into their local repository should see those changes.
+
+## Going forward
 

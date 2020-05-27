@@ -4,10 +4,12 @@ title: About
 permalink: /about/
 ---
 
-# Introduction to using version control using GitKraken
-
-Training materials for a hands-on workshop on using Git version control with GitKraken. If you would like to learn version control without having to use 
+Training materials for a hands-on tutorial on using Git version control with GitKraken - graphical user interface for Git. If you would like to learn version control without having to use 
 command line, you may find these materials useful.
+
+The contents of this tutorial is based on [Software Carpentry lessons](http://swcarpentry.github.io/git-novice/).
+<br>
+The template for rendering these materials is derived from Software Carpentry and NeSI templates.
 
 ## Learning objectives (what you will know after this workshop):
 
